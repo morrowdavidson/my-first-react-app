@@ -4,6 +4,7 @@ import './App.css'
 import { FavFood } from './Favfood'
 import Greeting from './Greetings'
 import GreenCircle from './GreenCircle'
+import Animals from './Animals'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -13,6 +14,7 @@ function App() {
       <Greeting />
       <FavFood />
       <GreenCircle />
+      <Animals />
     </>
   )
 }
